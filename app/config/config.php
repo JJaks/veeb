@@ -3,4 +3,4 @@
 define('URLROOT', 'http://localhost/veeb');
 define('APPROOT', dirname(dirname(__FILE__)) );
 define('SITENAME', 'IS Veeb');
-echo dirname(dirname(__FILE__));
+//echo dirname(dirname(__FILE__));
