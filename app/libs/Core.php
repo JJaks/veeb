@@ -10,7 +10,7 @@ class Core {
     public function __construct() {
         $url = $this->getUrl();
         echo '<pre>';
-        print_r($url);
+        print_r($url[0]);
         echo '</pre>';
     }
 
