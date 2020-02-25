@@ -11,7 +11,8 @@
     <title><?php echo SITENAME; ?></title>
 </head>
 <body>
-<div class="container">
+    <?php require_once 'navbar.php';?>
+    <div class="container">
 
 
 

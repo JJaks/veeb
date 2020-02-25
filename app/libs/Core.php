@@ -27,13 +27,6 @@ class Core {
             }
         }
 
-        echo '<pre>';
-        print_r($url);
-        echo '</pre>';
-
-        echo '<pre>';
-        print_r($this->currentController);
-        echo '</pre>';
 
         // set up params
         $this->params = $url ? array_values($url) : array();
